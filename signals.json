@@ -1,0 +1,235 @@
+{
+  "generated_et": "2026-10-05 18:38:13 ET",
+  "lookback_hours": 24.0,
+  "wallet_count": 294,
+  "solana_wallet_count": 32,
+  "runtime_sec": 303.3,
+  "solana_runtime_sec": 193.8,
+  "candidate_buys": 684,
+  "thresholds": {
+    "multi_wallet": ">=3 wallets in 6h",
+    "repeat_buy": ">=3 buys by 1 wallet in 24h",
+    "min_buy_usd": 250,
+    "min_signal_usd": 1000,
+    "min_liquidity_usd": 10000,
+    "min_market_cap_usd": 50000,
+    "max_market_cap_usd": 5000000,
+    "exclude_tokenized_stocks": true,
+    "require_dexscreener_pair": true
+  },
+  "signals": [
+    {
+      "kind": "multi_wallet",
+      "chain": "ethereum",
+      "token": "0xbb0c1f82a2ea0253ea3d91c2f05caded82133415",
+      "symbol": "SIMD",
+      "name": "Super Intelligent Identity",
+      "wallet_count": 3,
+      "wallets": [
+        {
+          "label": "iruletrenches",
+          "confidence": null,
+          "buys": 2,
+          "approx_usd": 14229.93,
+          "first": "2026-10-05 13:16:23 ET",
+          "latest": "2026-10-05 17:56:11 ET"
+        },
+        {
+          "label": "Tsukikage",
+          "confidence": null,
+          "buys": 1,
+          "approx_usd": 931.73,
+          "first": "2026-10-05 14:29:23 ET",
+          "latest": "2026-10-05 14:29:23 ET"
+        },
+        {
+          "label": "looc",
+          "confidence": null,
+          "buys": 1,
+          "approx_usd": 868.81,
+          "first": "2026-10-05 13:37:47 ET",
+          "latest": "2026-10-05 13:37:47 ET"
+        }
+      ],
+      "approx_usd_total": 16030.47,
+      "first_buy": "2026-10-05 13:16:23 ET",
+      "latest_buy": "2026-10-05 17:56:11 ET",
+      "price_usd": 0.0007104,
+      "liquidity_usd": 126104.1,
+      "market_cap_usd": 701301.0,
+      "dexscreener": "https://dexscreener.com/ethereum/0x99de115f6fcf3a505e94a16175fbb34a304425f9a72a2e091c60fb723dc39a4e",
+      "risk_verdict": "CLEARED (W001)",
+      "confidence": null,
+      "whale_confirmed": null,
+      "shill_confirmed": null,
+      "is_new": false
+    },
+    {
+      "kind": "multi_wallet",
+      "chain": "ethereum",
+      "token": "0xc354c1312e6c5ee0cbc0bd33c2645348ed4ec73c",
+      "symbol": "SIF",
+      "name": "Super Intelligence Force",
+      "wallet_count": 3,
+      "wallets": [
+        {
+          "label": "0xVantaa",
+          "confidence": null,
+          "buys": 1,
+          "approx_usd": 1546.76,
+          "first": "2026-10-05 18:15:23 ET",
+          "latest": "2026-10-05 18:15:23 ET"
+        },
+        {
+          "label": "NachSOL",
+          "confidence": null,
+          "buys": 1,
+          "approx_usd": 1531.31,
+          "first": "2026-10-05 14:42:11 ET",
+          "latest": "2026-10-05 14:42:11 ET"
+        },
+        {
+          "label": "plaque",
+          "confidence": null,
+          "buys": 1,
+          "approx_usd": 904.07,
+          "first": "2026-10-05 14:42:47 ET",
+          "latest": "2026-10-05 14:42:47 ET"
+        }
+      ],
+      "approx_usd_total": 3982.14,
+      "first_buy": "2026-10-05 14:42:11 ET",
+      "latest_buy": "2026-10-05 18:15:23 ET",
+      "price_usd": 0.0001676,
+      "liquidity_usd": 48473.0,
+      "market_cap_usd": 167646.0,
+      "dexscreener": "https://dexscreener.com/ethereum/0xec0a6d049c480912e843208bcd3080b4b9bc7998e171aea5ab4869376ba3d68b",
+      "risk_verdict": null,
+      "confidence": null,
+      "whale_confirmed": null,
+      "shill_confirmed": null,
+      "is_new": false
+    },
+    {
+      "kind": "repeat_buy",
+      "chain": "ethereum",
+      "token": "0xbb0c1f82a2ea0253ea3d91c2f05caded82133415",
+      "symbol": "SIMD",
+      "name": "Super Intelligent Identity",
+      "wallet_count": 1,
+      "wallets": [
+        {
+          "label": "Tsukikage",
+          "confidence": null,
+          "buys": 3,
+          "approx_usd": 6827.36,
+          "first": "2026-10-04 23:18:11 ET",
+          "latest": "2026-10-05 14:29:23 ET"
+        }
+      ],
+      "approx_usd_total": 6827.36,
+      "first_buy": "2026-10-04 23:18:11 ET",
+      "latest_buy": "2026-10-05 14:29:23 ET",
+      "price_usd": 0.0007104,
+      "liquidity_usd": 126104.1,
+      "market_cap_usd": 701301.0,
+      "dexscreener": "https://dexscreener.com/ethereum/0x99de115f6fcf3a505e94a16175fbb34a304425f9a72a2e091c60fb723dc39a4e",
+      "risk_verdict": "CLEARED (W001)",
+      "confidence": null,
+      "whale_confirmed": null,
+      "shill_confirmed": null,
+      "is_new": false
+    },
+    {
+      "kind": "repeat_buy",
+      "chain": "ethereum",
+      "token": "0xc354c1312e6c5ee0cbc0bd33c2645348ed4ec73c",
+      "symbol": "SIF",
+      "name": "Super Intelligence Force",
+      "wallet_count": 1,
+      "wallets": [
+        {
+          "label": "0xVantaa",
+          "confidence": null,
+          "buys": 3,
+          "approx_usd": 2429.18,
+          "first": "2026-10-04 19:30:35 ET",
+          "latest": "2026-10-05 18:15:23 ET"
+        }
+      ],
+      "approx_usd_total": 2429.18,
+      "first_buy": "2026-10-04 19:30:35 ET",
+      "latest_buy": "2026-10-05 18:15:23 ET",
+      "price_usd": 0.0001676,
+      "liquidity_usd": 48473.0,
+      "market_cap_usd": 167646.0,
+      "dexscreener": "https://dexscreener.com/ethereum/0xec0a6d049c480912e843208bcd3080b4b9bc7998e171aea5ab4869376ba3d68b",
+      "risk_verdict": null,
+      "confidence": null,
+      "whale_confirmed": null,
+      "shill_confirmed": null,
+      "is_new": false
+    },
+    {
+      "kind": "repeat_buy",
+      "chain": "solana",
+      "token": "F4K2SbLNgyz9gzNqT8bPeLpRkxy4oMA9twaffUDdZtB6",
+      "symbol": "POD",
+      "name": "orcapod.fun",
+      "wallet_count": 1,
+      "wallets": [
+        {
+          "label": "Aurelius0121",
+          "confidence": "confirmed_bridge",
+          "buys": 3,
+          "approx_usd": 17697.89,
+          "first": "2026-10-05 12:39:12 ET",
+          "latest": "2026-10-05 17:53:39 ET"
+        }
+      ],
+      "approx_usd_total": 17697.89,
+      "first_buy": "2026-10-05 12:39:12 ET",
+      "latest_buy": "2026-10-05 17:53:39 ET",
+      "price_usd": 0.001339,
+      "liquidity_usd": 192537.08,
+      "market_cap_usd": 1339819.0,
+      "dexscreener": "https://dexscreener.com/solana/4759sggn3ypwtphobq65wcwa1t1tbda5cwskjohux39d",
+      "risk_verdict": null,
+      "confidence": "confirmed_bridge",
+      "whale_confirmed": null,
+      "shill_confirmed": null,
+      "is_new": null
+    },
+    {
+      "kind": "repeat_buy",
+      "chain": "solana",
+      "token": "CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump",
+      "symbol": "BACKERS",
+      "name": "Backers",
+      "wallet_count": 1,
+      "wallets": [
+        {
+          "label": "ResellCalendar",
+          "confidence": "name_match",
+          "buys": 3,
+          "approx_usd": 17500.91,
+          "first": "2026-10-05 02:58:05 ET",
+          "latest": "2026-10-05 18:17:51 ET"
+        }
+      ],
+      "approx_usd_total": 17500.91,
+      "first_buy": "2026-10-05 02:58:05 ET",
+      "latest_buy": "2026-10-05 18:17:51 ET",
+      "price_usd": 0.0006701,
+      "liquidity_usd": 83674.16,
+      "market_cap_usd": 644387.0,
+      "dexscreener": "https://dexscreener.com/solana/p977g14fukdl3aoh97mamqq4v7ecav5azkhtpn21ehc",
+      "risk_verdict": null,
+      "confidence": "name_match",
+      "whale_confirmed": null,
+      "shill_confirmed": null,
+      "is_new": null
+    }
+  ],
+  "note": "Public snapshot. Nicknames only \u2014 tracked addresses are not published. UI dedupes by chain+token."
+}

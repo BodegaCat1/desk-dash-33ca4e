@@ -1,0 +1,45 @@
+[
+  {
+    "ticket": "SNP-001",
+    "lead": "L-043",
+    "chain": "Solana",
+    "ticker": "HIGGS",
+    "ca": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
+    "copycat_warning": "NOT D6jNbuRVwfgnVE4SVDvWDv2RtqS2i54iVBWaZsrzDWQ",
+    "fomo_url": null,
+    "status": "NO-FUND",
+    "size_usd": 0,
+    "size_reason": "Free cash is $0.78, so the cap is 6% of that, about $0.05, and any Solana fees would be far more than 2% of a $0.05 swap.",
+    "size_math": "min(6% x $0.78 = $0.047, 2% x $180k liq = $3,600, risk cap $0.047) = $0.047; no thin-data cut (Solana, Risk cleared); no X cut (@higgspad verified); fee floor fails, so $0",
+    "reference_size_usd_at_100": 6,
+    "reference_math": "min(6% x $100 = $6, 2% x $180k = $3,600, risk cap $6) = $6; no cuts; fee floor 2% of $6 = $0.12, so the live quote must show total fees under $0.12",
+    "entry": {
+      "zone_low": 0.00185,
+      "zone_high": 0.00205,
+      "ref_price": 0.002033,
+      "note": "Don't chase above $0.00210"
+    },
+    "stop": {
+      "price": 0.0015,
+      "note": "About 25% under the top of the zone, roughly $1.46M mcap. Also exit at once if Risk flags it, liquidity drops under $120k, or DumbCrayonEater sells."
+    },
+    "targets": [
+      {
+        "price": 0.003,
+        "mcap_approx": "2.9M",
+        "action": "Sell 50%, move stop to break-even"
+      },
+      {
+        "price": 0.0041,
+        "mcap_approx": "4.0M",
+        "action": "Sell 30%"
+      },
+      {
+        "price": null,
+        "action": "Trail the last 20% with a 30% trailing stop"
+      }
+    ],
+    "slippage_pct": 3,
+    "created_et": "2026-10-05 17:59 ET"
+  }
+]
